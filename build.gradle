@@ -23,6 +23,9 @@ processResources.dependsOn(buildFront)
 repositories {
 	mavenCentral()
 }
+node {
+	download = true
+}
 
 
 dependencies {
