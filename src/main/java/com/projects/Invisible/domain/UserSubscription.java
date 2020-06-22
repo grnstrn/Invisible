@@ -52,4 +52,36 @@ public class UserSubscription implements Serializable {
 
     public UserSubscription() {
     }
+
+    public UserSubscriptionId getId() {
+        return id;
+    }
+
+    public void setId(UserSubscriptionId id) {
+        this.id = id;
+    }
+
+    public User getChannel() {
+        return channel;
+    }
+
+    public void setChannel(User channel) {
+        this.channel = channel;
+    }
+
+    public User getSubscriber() {
+        return subscriber;
+    }
+
+    public void setSubscriber(User subscriber) {
+        this.subscriber = subscriber;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
 }

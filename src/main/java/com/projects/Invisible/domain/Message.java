@@ -125,6 +125,7 @@ public class Message {
         this.linkCover = linkCover;
     }
 
+
     @Override
     public String toString() {
         return "Message{" +
